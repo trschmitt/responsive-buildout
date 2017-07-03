@@ -46,10 +46,13 @@ a:hover{
     color: blue;
 }
 
-header{ 
+header{
     padding-bottom: 15px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ddddff;
+}
+#logo {
+  text-align: center;
 }
 
 #site_container{
@@ -76,3 +79,35 @@ header{
 #main_nav a:hover{
     background: #ddddff;
 }
+
+#main_content {
+  background-color: #ddffff;
+}
+
+#sidebar_content {
+  background-color: #ffffdd;
+}
+
+#site_footer {
+  background-color: #fddbac;
+  padding: 10px;
+  text-align: center;
+}
+
+#site_footer > nav > a {
+  margin: 10px;
+}
+
+/*Mobile CSS start*/
+@media screen and (min-width: 600px) {
+  
+}
+/*Mobile CSS End*/
+
+/*Tablet CSS start*/
+
+/*Tablet CSS end*/
+
+/*Desktop CSS start*/
+
+/*desktop CSS end*/
